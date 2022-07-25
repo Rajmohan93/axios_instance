@@ -5,6 +5,7 @@ import './App.css';
 import FetchData from './components/FetchData';
 import EmployeeData from './components/EmployeeData';
 import Login from './components/Login';
+import ListItems from './components/list component/ListItems';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FetchData />
       <EmployeeData />
       <Login />
+      <ListItems />
     </div>
   );
 }
